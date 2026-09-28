@@ -26,3 +26,8 @@
 	<li><code>1 &lt;= low &lt;= high &lt;= 10<sup>5</sup></code></li>
 	<li>All <code>Node.val</code> are <strong>unique</strong>.</li>
 </ul>
+<h1>
+	Time Complexity: O(n) in the worst case, where n is the number of nodes.
+
+Space Complexity: O(h), where h is the height of the BST, due to the recursive call stack.
+</h1>
