@@ -31,3 +31,16 @@
 	<li>The number of nodes in both trees is in the range <code>[0, 100]</code>.</li>
 	<li><code>-10<sup>4</sup> &lt;= Node.val &lt;= 10<sup>4</sup></code></li>
 </ul>
+<p>Time Complexity: O(n)
+
+You visit each node of both trees at most once.
+
+If there are n nodes to check, the total work is proportional to n.
+
+Time Complexity = O(n)
+
+Space Complexity: O(h)
+
+Because you use recursion, each recursive call occupies stack space.
+
+h is the height of the tree.</p>
